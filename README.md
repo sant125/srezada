@@ -16,7 +16,7 @@ Notas de estudo do [Google SRE Workbook](https://sre.google/workbook/table-of-co
 - [x] [01 · How SRE Relates to DevOps](01-how-sre-relates-to-devops.md)
 - [x] [02 · Implementing SLOs](02-implementing-slos.md)
 - [ ] 03 · SLO Engineering Case Studies
-- [ ] 04 · Monitoring
+- [x] [04 · Monitoring](04-monitoring.md)
 - [ ] 05 · Alerting on SLOs
 - [ ] 06 · Eliminating Toil
 - [ ] 07 · Simplicity
