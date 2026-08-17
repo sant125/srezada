@@ -10,7 +10,9 @@ Autores: Jess Frame, Anthony Lenton, Steven Thurgood, Anton Tolchanov e Nejc Trd
 
 ## 1. Os 5 usos e os tradeoffs
 
-Escopo declarado: monitoring inclui métricas, log de texto, log estruturado de evento, distributed tracing e introspecção de runtime, mas o capítulo foca em **métricas e log estruturado**, as duas fontes mais adequadas às necessidades fundamentais do SRE.
+Escopo declarado: monitoring inclui métricas, log de texto, log estruturado de evento, distributed tracing e introspecção de runtime, mas o capítulo foca em **métricas e log estruturado**, as duas fontes mais adequadas às necessidades fundamentais do SRE. (A parte de distributed tracing que este capítulo deixa de fora é o [o11yzada](../o11yzada), Tema 02 em diante — sinal completo, span, propagação de contexto.)
+
+Ver também [o11yzada Tema 01](../o11yzada/01-observabilidade-sinais-e-correlacao.md) pra a distinção monitoring vs observability (known-unknowns vs unknown-unknowns) que complementa os "5 usos" abaixo — monitoring aqui é sobre *o que você já sabia perguntar*; observability é sobre o que você não sabia.
 
 Os 5 motivos pelos quais SRE monitora (herdados do cap 6 do livro 1):
 
